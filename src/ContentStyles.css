@@ -1,0 +1,39 @@
+.head-container {
+    max-width: 400px; 
+}
+.head {
+  line-height: 1.2;
+  text-align: left;
+  font-size: 24px;
+  text-decoration: underline rgb(36, 33, 33);
+  word-wrap: break-word;
+}
+.vacancy {
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+    word-wrap: break-word;
+    vertical-align: middle;
+}
+.photo {
+    position: absolute;
+    right: 2cm; 
+    top: 3cm; 
+    width: 4.5cm;
+    height: 5.5cm;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+}
+.icon {
+    margin-top: 0.5cm;
+    width: 0.7cm;
+    height: 0.7cm;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+}

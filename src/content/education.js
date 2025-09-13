@@ -19,4 +19,4 @@ const courses = [
 
 ]
 
-export default [educationUniversity, courses]; 
+export default {educationUniversity, courses}; 

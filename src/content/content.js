@@ -3,27 +3,29 @@ const personalData = {
         sername: "Камагорова",
         name: "Кристина",
         patronymic: "Александровна",
+        vacancy: "Frontend",
         birthday: "31.01.1991",
-        locality: "Tomsk",
+        locality: "Томск",
+        photo: "/photo.png",
         
 }
 const contacts = [
 {
-        image: ' ',
+        image: './icons/teams.png',
         title: "teams",
         value: "kamagorovakristina@gmail.com",
 },
 
 {
-        image: ' ',
+        image: './icons/telegram.webp',
         title: "telegram",
         value: "KamagorovaK",
 },
 {
-        image: ' ',
+        image: './icons/gmail.png',
         title: "post",
         value: "kamagorovakristina@gmail.com",
 }
 ];
 
-export default [personalData, contacts];
+export {personalData, contacts};
