@@ -2,7 +2,8 @@ const educationUniversity = [{
     title: "ТУСУР",
     locality: "Томск",
     speciality: "Автоматизированные системы обработки информации и управления",
-    faculty: "Систем управления",
+    qualification: "Инженер-программист",
+    faculty: "Факультет систем управления",
     "year graduation": "2014",
 }]
 const courses = [
@@ -19,4 +20,4 @@ const courses = [
 
 ]
 
-export default {educationUniversity, courses}; 
+export {educationUniversity, courses}; 

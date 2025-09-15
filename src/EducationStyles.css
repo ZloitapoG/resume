@@ -1,0 +1,22 @@
+.row-left {
+     padding-top: 40px;
+     vertical-align: top;
+     width: 250px;
+}
+.row-right {
+     padding-top: 40px;
+     vertical-align: top;
+}
+.row {
+    padding: 15px;
+    background-color: #c9dde6;
+    vertical-align: middle;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-decoration: underline rgb(36, 33, 33);
+}
+.ficha {
+    height: 75px;
+}

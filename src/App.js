@@ -2,6 +2,7 @@ import { personalData, contacts } from './content/content.js';
 import { educationUniversity, courses } from './content/education.js';
 import experience from './content/experience.js';
 import { ContentList, ContactList } from './ContentList.js';
+import { EducationList } from './EducationList.js';
 import './styles.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
              {contacts.map((contact, index) => (
             <ContactList key={index} list={contact}/>
           ))}
+          <EducationList list = {educationUniversity}/>
         </div>
       </div>
     </div>

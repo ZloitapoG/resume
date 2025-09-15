@@ -9,11 +9,10 @@
   word-wrap: break-word;
 }
 .vacancy {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: gray;
     word-wrap: break-word;
-    vertical-align: middle;
 }
 .photo {
     position: absolute;
@@ -28,9 +27,8 @@
     height: 100%;
 }
 .icon {
-    margin-top: 0.5cm;
-    width: 0.7cm;
-    height: 0.7cm;
+    width: 0.6cm;
+    height: 0.6cm;
 }
 
 .icon img {
