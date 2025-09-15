@@ -1,10 +1,11 @@
 .row-left {
-     padding-top: 40px;
+     padding-top: 3px;
      vertical-align: top;
      width: 250px;
 }
 .row-right {
-     padding-top: 40px;
+     padding-top: 3px;
+     padding-left: 13px;
      vertical-align: top;
 }
 .row {
@@ -17,6 +18,9 @@
     word-wrap: break-word;
     text-decoration: underline rgb(36, 33, 33);
 }
-.ficha {
-    height: 75px;
+.ficha-ed {
+    height: 250px;
+}
+.ficha-ex {
+    height: 900px;
 }

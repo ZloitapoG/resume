@@ -1,25 +1,34 @@
-import './EducationStyles.css';
+import './Table.css';
 export function EducationList(props) {
+    const { education, courses } = props;
     return (
         <div>
             <table>
                 <tbody>
                     <tr>
                         <td className='row-left'>
-                            <div className='row ficha'>
+                            <div className='row ficha-ed'>
                                 Образование
                             </div>
                         </td>
                         <td className='row-right'>
-                            {props.list.map((item) => (
-                                <div key={item.key}> 
+                            {education.map((item) => (
+                                <div key={item.key}>
                                     {item.qualification}
-                                    <br/>
-                                    {item.title} {item.locality} {item["year graduation"]} 
-                                    <br/>
+                                    <br />
+                                    <strong>{item.title} {item.locality} {item["year graduation"]}</strong>
+                                    <br />
                                     {item.faculty}
-                                    <br/>
+                                    <br />
                                     {item.speciality}
+                                </div>
+                            ))}
+                            <h4>Курсы:</h4>
+                            {courses.map((course, index) => (
+                                <div key={index}>
+                                    <strong>{course.title}</strong>
+                                    <br />
+                                    {course.topic}, {course["year graduation"]}
                                 </div>
                             ))}
                         </td>

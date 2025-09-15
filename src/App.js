@@ -3,6 +3,7 @@ import { educationUniversity, courses } from './content/education.js';
 import experience from './content/experience.js';
 import { ContentList, ContactList } from './ContentList.js';
 import { EducationList } from './EducationList.js';
+import { ExperienceList } from './ExperienceList.js';
 import './styles.css';
 
 function App() {
@@ -14,7 +15,9 @@ function App() {
              {contacts.map((contact, index) => (
             <ContactList key={index} list={contact}/>
           ))}
-          <EducationList list = {educationUniversity}/>
+          <div style={{ marginBottom: '20px' }}></div>
+         <EducationList education={educationUniversity} courses={courses} />
+         <ExperienceList list = {experience}/>
         </div>
       </div>
     </div>
