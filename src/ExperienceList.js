@@ -128,9 +128,15 @@ export function About(props) {
                         <td className='row-right'>
                             {props.list.map((item) => (
                                 <div key={item.key}>
-                                 {item.hobbi}
+                                <strong>Уровень английского: </strong>{item.english}
+                                <br/>
+                                <strong>Цель по курсу: </strong>{item.target}
+                                <br/>
+                                <strong>Информация о курсе из: </strong>{item.way}
+                                <br/>
+                                 <strong>Хобби: </strong>{item.hobbi}
                                  <br/>
-                                 {item.family}
+                                 <strong>Семейное положение: </strong>{item.family}
                                 </div>
                             ))}
                         </td>
