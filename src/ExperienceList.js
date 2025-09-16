@@ -50,3 +50,93 @@ export function ExperienceList(props) {
         </div>
     )
 }
+export function Hardskills(props) {
+    return (
+        <div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td className='row-left'>
+                            <div className='row ficha-hd'>
+                                Профессиональные
+                                <br />
+                                навыки
+                            </div>
+                        </td>
+                        <td className='row-right'>
+                            {props.list.map((item) => (
+                                <div key={item.key}>
+                                    <img className='icon' src={item.ico}/>
+                                    <span>{item.portfolio}</span>
+                                    <ul>
+                                        {
+                                            item.skills.map((dutu, index) => (
+                                                <li key={index.key}>{dutu}</li>
+                                            ))}
+                                    </ul>
+                                </div>
+                            ))}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    )
+}
+export function Softskills(props) {
+    return (
+        <div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td className='row-left'>
+                            <div className='row ficha-sf'>
+                                Личные качества
+                            </div>
+                        </td>
+                        <td className='row-right'>
+                            {props.list.map((item) => (
+                                <div key={item.key}>
+                                    <ul>
+                                        {
+                                            item.softskills.map((dutu, index) => (
+                                                <li key={index.key}>{dutu}</li>
+                                            ))}
+                                    </ul>
+                                </div>
+                            ))}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    )
+}
+export function About(props) {
+    return (
+        <div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td className='row-left'>
+                            <div className='row ficha-fm'>
+                                Дополнительная
+                                <br/>
+                                информация
+                            </div>
+                        </td>
+                        <td className='row-right'>
+                            {props.list.map((item) => (
+                                <div key={item.key}>
+                                 {item.hobbi}
+                                 <br/>
+                                 {item.family}
+                                </div>
+                            ))}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    )
+}

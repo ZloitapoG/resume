@@ -24,3 +24,21 @@
 .ficha-ex {
     height: 900px;
 }
+.ficha-hd {
+    height: 160px;
+}
+.ficha-sf {
+    height: 110px;
+}
+.ficha-fm {
+    height: 40px;
+}
+.icon {
+    width: 0.6cm;
+    height: 0.6cm;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+}

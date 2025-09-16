@@ -6,7 +6,7 @@ const personalData = {
         vacancy: "Frontend",
         birthday: "31.01.1991",
         locality: "Томск",
-        photo: "/photo.png",
+        photo: "/photo.jpg",
         
 }
 const contacts = [
